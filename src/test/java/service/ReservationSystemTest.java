@@ -18,6 +18,7 @@ public class ReservationSystemTest {
     @Test
     public void testReserveRoom() {
         // Implementar pruebas aquí
+        
     }
 
     @Test
@@ -26,4 +27,6 @@ public class ReservationSystemTest {
     }
 
     // Puedes añadir más pruebas según lo consideres necesario
+
+    
 }
