@@ -17,13 +17,24 @@ public class ReservationSystemTest {
 
     @Test
     public void testReserveRoom() {
-        // Implementar pruebas aquí
+        // Implementar pruebas aqu
+        ReservationSystem reservationSystem= new ReservationSystem();
+        String roomIdToReserve="A1";
+        boolean result= reservationSystem.reserveRoom(roomIdToReserve);
+        
+        assertTrue(result);
         
     }
 
     @Test
     public void testCancelReservation() {
         // Implementar pruebas aquí
+        ReservationSystem reservationSystem= new ReservationSystem();
+        String roomIdReserved="A2";
+        
+        boolean result= reservationSystem.cancelReservation(roomIdReserved);
+        
+        assertFalse(result);
     }
 
     // Puedes añadir más pruebas según lo consideres necesario
